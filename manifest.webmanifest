@@ -1,0 +1,15 @@
+{
+  "name": "Yassine Raha Marketing",
+  "short_name": "YR Studio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0E0F12",
+  "theme_color": "#0E0F12",
+  "icons": [
+    {
+      "src": "/assets/images/favicon-yr.svg",
+      "sizes": "128x128",
+      "type": "image/svg+xml"
+    }
+  ]
+}
