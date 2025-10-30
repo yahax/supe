@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "title": {
+      "home": "Agence digitale premium au Maroc",
+      "services": "Nos services",
+      "realisations": "Réalisations",
+      "about": "À propos de WINBOX",
+      "contact": "Contact"
+    },
+    "description": {
+      "home": "WINBOX conçoit des identités audacieuses, des sites Next.js ultra-rapides et des stratégies de growth rentables.",
+      "services": "Découvrez comment WINBOX accélère votre acquisition avec des offres pensées pour la performance.",
+      "realisations": "Études de cas chiffrées et projets qui prouvent notre exigence.",
+      "about": "Une équipe senior qui allie design, technologie et marketing pour créer des marques durables.",
+      "contact": "Parlons de votre prochaine victoire digitale avec WINBOX."
+    }
+  },
+  "nav": {
+    "services": "Services",
+    "realisations": "Réalisations",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "h1": "Design Premium. Sites Web rapides. Croissance mesurable.",
+    "sub": "De l’identité au site puis à l’acquisition, WINBOX orchestre votre performance digitale.",
+    "ctaPrimary": "Parler à un expert",
+    "ctaSecondary": "Voir nos réalisations"
+  },
+  "services": {
+    "title": "Nos expertises",
+    "description": "Des offres pensées pour activer rapidement votre croissance digitale.",
+    "items": [
+      {
+        "title": "Sites Web & eCommerce",
+        "description": "Des plateformes Next.js optimisées pour le SEO et la conversion, LCP < 2s garanti."
+      },
+      {
+        "title": "Branding & Identité",
+        "description": "Positionnement, naming, brandbook et design system pour une marque cohérente."
+      },
+      {
+        "title": "Growth Marketing",
+        "description": "Acquisition multicanale, CRM et automatisations pour scaler vos ventes."
+      }
+    ]
+  },
+  "cases": {
+    "title": "Études de cas",
+    "description": "Des preuves chiffrées que la créativité peut être rentable.",
+    "filters": {
+      "all": "Tous",
+      "tech": "Technologie",
+      "retail": "Retail",
+      "finance": "Finance"
+    },
+    "items": [
+      {
+        "title": "Refonte eCommerce pour Atlas Market",
+        "sector": "retail",
+        "kpis": ["+142% CA en 3 mois", "LCP 1.2s", "Panier moyen +35%"],
+        "stack": "Next.js, Shopify, Klaviyo"
+      },
+      {
+        "title": "Génération de leads B2B pour Financia",
+        "sector": "finance",
+        "kpis": ["+68% MQL", "CPA -32%", "Score UX 97"],
+        "stack": "Next.js, HubSpot, GA4"
+      },
+      {
+        "title": "Plateforme SaaS pour DevFlow",
+        "sector": "tech",
+        "kpis": ["Time-to-market 6 semaines", "+210% d'inscriptions", "NPS 56"],
+        "stack": "Next.js, Supabase, Segment"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Ils propulsent leur croissance avec WINBOX",
+    "items": [
+      {
+        "quote": "WINBOX a dépassé nos attentes sur la qualité du design et la vitesse du site.",
+        "author": "Yasmine B.",
+        "role": "CEO, Atlas Market"
+      },
+      {
+        "quote": "Une équipe qui comprend vraiment le marketing de performance.",
+        "author": "Reda M.",
+        "role": "CMO, Financia"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêts à accélérer votre acquisition ?",
+    "action": "Parler à un expert"
+  },
+  "contact": {
+    "title": "Discutons de votre projet",
+    "description": "Remplissez le formulaire et nous revenons vers vous sous 24h ouvrées.",
+    "success": "Merci ! Notre équipe revient vers vous sous 24h ouvrées.",
+    "fields": {
+      "name": "Nom complet",
+      "email": "Email professionnel",
+      "phone": "Téléphone",
+      "projectType": "Type de projet",
+      "budget": "Budget estimé",
+      "message": "Parlez-nous de vos objectifs"
+    },
+    "submit": "Envoyer la demande"
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "privacy": "Mentions légales",
+    "cookies": "Politique de cookies"
+  }
+}
