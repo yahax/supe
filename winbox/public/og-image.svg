@@ -1,0 +1,26 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="48" fill="#0F172A"/>
+  <rect x="72" y="72" width="1056" height="486" rx="36" fill="url(#gradient)"/>
+  <defs>
+    <linearGradient id="gradient" x1="72" y1="72" x2="1128" y2="558" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F172A"/>
+      <stop offset="0.5" stop-color="#00D2B8" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#F5A524" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+  <g filter="url(#glow)">
+    <path d="M276 210C276 187.909 293.909 170 316 170H884C906.091 170 924 187.909 924 210V420C924 442.091 906.091 460 884 460H316C293.909 460 276 442.091 276 420V210Z" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+  </g>
+  <text x="300" y="290" fill="#FFFFFF" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="56">WINBOX</text>
+  <text x="300" y="356" fill="#FFFFFF" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="32">Design Premium · Sites Web rapides · Croissance mesurable</text>
+  <text x="300" y="414" fill="#F5A524" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="24">winbox.ma</text>
+  <defs>
+    <filter id="glow" x="236" y="130" width="728" height="370" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="24" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>
