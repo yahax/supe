@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Favori Voyages</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <div class="logo">Favori Voyages</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="omra-hajj.html">Omra & Hajj</a></li>
+          <li><a href="voyages-organises.html">Voyages organisés</a></li>
+          <li><a href="vols.html">Vols & billets</a></li>
+          <li><a href="sur-mesure.html">Voyages sur-mesure</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="burger" aria-label="Ouvrir le menu mobile">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="mobile-nav">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="omra-hajj.html">Omra & Hajj</a></li>
+          <li><a href="voyages-organises.html">Voyages organisés</a></li>
+          <li><a href="vols.html">Vols & billets</a></li>
+          <li><a href="sur-mesure.html">Voyages sur-mesure</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-subtle">
+      <div class="container">
+        <h1>Contact & demande de devis</h1>
+        <p>Par téléphone, email ou WhatsApp, notre équipe répond rapidement.</p>
+        <div class="hero-actions" style="justify-content:center; margin-top:18px;">
+          <a class="btn btn-primary" href="tel:+212612345678">Appeler</a>
+          <a class="btn btn-ghost" href="https://wa.me/212612345678" target="_blank" rel="noopener">Parler sur WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="grid grid-2">
+          <div>
+            <h2 class="section-title">Coordonnées</h2>
+            <p class="section-subtitle">Nous échangeons sur le canal qui vous convient.</p>
+            <p><strong>Téléphone :</strong> <a href="tel:+212612345678">+212 6 12 34 56 78</a></p>
+            <p><strong>Email :</strong> <a href="mailto:contact@favorivoyages.ma">contact@favorivoyages.ma</a></p>
+            <p><strong>WhatsApp :</strong> <a href="https://wa.me/212612345678" target="_blank" rel="noopener">Parler maintenant</a></p>
+          </div>
+          <div class="card">
+            <h2>Formulaire de demande</h2>
+            <form class="grid form-grid">
+              <div>
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+              </div>
+              <div>
+                <label for="prenom">Prénom (optionnel)</label>
+                <input type="text" id="prenom" name="prenom" placeholder="Votre prénom">
+              </div>
+              <div>
+                <label for="telephone">Téléphone</label>
+                <input type="tel" id="telephone" name="telephone" placeholder="+212..." required>
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="email@example.com" required>
+              </div>
+              <div>
+                <label for="type">Type de voyage</label>
+                <select id="type" name="type">
+                  <option>Omra & Hajj</option>
+                  <option>Voyage organisé</option>
+                  <option>Vols</option>
+                  <option>Voyage sur-mesure</option>
+                  <option>Autre demande</option>
+                </select>
+              </div>
+              <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Parlez-nous de votre projet"></textarea>
+              </div>
+              <div style="grid-column: 1 / -1;">
+                <button type="submit" class="btn btn-primary">Envoyer ma demande</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Favori Voyages</h4>
+        <p class="section-subtitle">Agence de voyages premium spécialisée Omra, Hajj et séjours luxe.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="tel:+212612345678">+212 6 12 34 56 78</a>
+        <a href="mailto:contact@favorivoyages.ma">contact@favorivoyages.ma</a>
+        <a href="https://wa.me/212612345678" target="_blank" rel="noopener">WhatsApp direct</a>
+      </div>
+      <div>
+        <h4>Liens rapides</h4>
+        <a href="omra-hajj.html">Omra & Hajj</a>
+        <a href="voyages-organises.html">Voyages organisés</a>
+        <a href="vols.html">Vols & billets</a>
+        <a href="sur-mesure.html">Sur-mesure</a>
+      </div>
+    </div>
+    <div class="container" style="margin-top:24px; color: var(--text-muted); font-size: 0.9rem;">© Favori Voyages. Tous droits réservés.</div>
+  </footer>
+</body>
+</html>
